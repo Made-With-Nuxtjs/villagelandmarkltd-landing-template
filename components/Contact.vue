@@ -1,6 +1,6 @@
 <template>
     <div class="bg-blue-950">
-        <h5 class="font-bold font-bang text-center text-3xl text-white p-6">
+        <h5 class="font-bold font-bang text-center text-3xl text-white p-8">
             প্রজেক্ট ভিজিট করতে অথবা প্রজেক্ট সংক্রান্ত যে কোন তথ্যের জন্য যোগাযোগ করুন।
         </h5>
         <div class="xl:flex flex-coll justify-center items-center gap-6 p-2 pb-8">

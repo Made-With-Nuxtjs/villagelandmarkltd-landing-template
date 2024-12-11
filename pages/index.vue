@@ -7,11 +7,11 @@ useSeoMeta({
 <template>
 
     <section class="bg-emerald-800">
-        <div class="px-96 flex flex-col">
-            <h1 class="text-5xl text-gray-50 px-16 text-center font-bold font-bang">ঢাকার বিরুলিয়া তে ৫০% কম খরচে মাত্র
+        <div class="xl:px-96 flex flex-col">
+            <h1 class="text-4xl xl:text-5xl text-gray-50 p-4 text-center font-bold font-bang">ঢাকার বিরুলিয়া তে ৫০% কম খরচে মাত্র
                 ২২০০ টাকা স্কয়ার ফিটে নিজের ফ্ল্যাট ও দোকান</h1>
 
-            <h3 class="text-2xl text-gray-50 px-16 text-center py-8 font-semibold font-bang">
+            <h3 class="text-lg md:text-2xl lg:text-2xl xl:text-2xl text-gray-50 px-4 text-center font-semibold font-bang">
                 মাত্র ৫০% কম খরচে নিজের বাড়ি নিজে তৈরি করুন এই উদ্দেশ্যকে সামনে রেখে আমাদের এই প্রজেক্ট, ঢাকা
                 বাংলাদেশের রাজধানী। চাকুরী বা ব্যবসার সুবাদে দীর্ঘদিন যাবৎ ঢাকা শহরে অবস্থান করার পরেও অন্যের বাড়িতে
                 ভাড়াটিয়া হিসাবে আমরা জীবন যাপন করছি। নিজের একটি ফ্ল্যাট করার স্বপ্ন দেখার পরেও জায়গা বা জমির শেয়ার বা
@@ -39,9 +39,9 @@ useSeoMeta({
                     </div>
                 </div>
 
-                <div class="flex gap-6">
+                <div class="flex flex-col xl:flex-row gap-6 justify-center p-4">
                     <div>
-                        <p class="text-gray-50 text-lg font-semibold">
+                        <p class="text-gray-50 text-md md:text-lg lg:text-xl xl:text-xl font-semibold xl:w-[500px]">
                         বিরুলিয়াতে কেন ফ্ল্যাট কিনবেন : বিরুলিয়া হচ্ছে ভবিষ্যৎ ঢাকার প্রাণকেন্দ্র। যে কোন একটি এরিয়া
                         ডেভলপমেন্ট এর জন্য প্রয়োজন উক্ত এলাকার যোগাযোগ ব্যবস্থার উন্নতী এবং উক্ত এলাকায় বসবাস করার জন্য
                         মানুষের ৫টি মৌলিক চাহিদার অন্যতম শিক্ষা ব্যবস্থার উন্নতী। বিরুলিয়াতে রয়েছে ৭টি স্বনামধন্য
@@ -53,8 +53,8 @@ useSeoMeta({
                         দিকে দক্ষিণ পাশে রয়েছে ২০ ফিট রাস্তা এবং প্রজেক্ট এর পেছন দিকে পূর্ব পাশে রয়েছে ১৫ ফিট এর
                         রাস্তা। পর্যাপ্ত পরিমানে আলো বাতাস চলাচল করতে সক্ষম।</p>
                     </div>
-                    <div>
-                        <NuxtImg src="https://placehold.co/550x500" title="product-image" class="w-full"
+                    <div class="xl:w-[500px]">
+                        <NuxtImg src="https://placehold.co/400x420" title="product-image" class="w-full"
                         alt="product-image" />
                     </div>
                 </div>
@@ -98,7 +98,7 @@ useSeoMeta({
         <CustomerReview />
     </section>
 
-    <section>
+    <section class="py-2">
         <Contact />
     </section>
 
