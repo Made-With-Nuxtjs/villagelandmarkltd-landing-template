@@ -181,17 +181,11 @@
                                 <a href="/success"
                                     class="w-full h-14 flex justify-center items-center gap-2 py-2 rounded-sm bg-emerald-900 mt-4">
                                     <div>
-                                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-lock h-4 w-4 text-white"
-                                            fill="currentColor" viewBox="0 0 448 512"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M400 224h-24v-72C376 68.92 307.08 0 224 0S72 68.92 72 152v72H48c-26.51 0-48 21.49-48 48v192c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V272c0-26.51-21.49-48-48-48zM144 152c0-44.18 35.82-80 80-80s80 35.82 80 80v72H144v-72zm96 200c0 13.25-10.75 24-24 24s-24-10.75-24-24v-48c0-13.25 10.75-24 24-24s24 10.75 24 24v48z">
-                                            </path>
-                                        </svg>
+                                        <Icon class="h-6 w-6" name="material-symbols-light:lock" style="color: white;" />
+                                        
                                     </div>
                                     <p class="text-sm text-white font-semibold">অর্ডার করুন 250.00 ৳&nbsp;</p>
                                 </a>
-
                             </div>
                         </div>
                     </div>

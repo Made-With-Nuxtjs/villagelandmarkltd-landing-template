@@ -19,6 +19,8 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@iconify-json/material-symbols-light": "^1.2.12",
+    "@nuxt/icon": "^1.10.2",
     "@nuxt/image": "^1.8.1",
     "@nuxt/scripts": "^0.9.5",
     "@nuxtjs/tailwindcss": "^6.12.2",
